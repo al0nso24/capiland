@@ -1,4 +1,8 @@
 /*Sección "Inicio"*/
-.banner{
+.banner {
   border-radius: 30px;
+}
+
+.card img {
+  height: 310px;
 }

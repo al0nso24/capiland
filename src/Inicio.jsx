@@ -4,7 +4,7 @@ export default function Inicio(){
     return(
         <div>
             <div>
-                <img className="banner w-100 h-100 object-cover" src="/imagenes/banner.jpg" alt="banner"></img>
+                <img className="banner img-fluid w-100" src="/imagenes/capi-banner.png" alt="banner"></img>
             </div>
 
             <div className="container mt-5">
@@ -24,43 +24,31 @@ export default function Inicio(){
             </div>
 
             <div className="container mt-5">
-                <div className="row gap-2">
+                <div className="row gy-3">
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4">
-                        <div class="card radius-15">
-                            <div class="card-body text-center">
-                                <div class="p-4 radius-15">
-                                    <img src="" width="110" height="110" class="rounded-circle shadow p-1 bg-white" alt=""></img>
-                                    <h4 class="mt-5 text-white">Vida Social</h4>
-                                    <p>
-                                        Los capibaras son animales muy sociables que viven en grupos de 10 a 20 miembros a más.
-                                    </p>
-                                </div>
+                        <div class="card">
+                            <img src="/imagenes/vida-social.png" class="card-img-top" alt="vida-social"></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Vida social</h5>
+                                <p class="card-text">Los capibaras son animales muy sociables que viven en grupos de 10 a 20 miembros o más.</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4">
-                        <div class="card radius-15">
-                            <div class="card-body text-center">
-                                <div class="p-4 radius-15">
-                                    <img src="" width="110" height="110" class="rounded-circle shadow p-1 bg-white" alt=""></img>
-                                    <h4 class="mt-5 text-white">Vida Social</h4>
-                                    <p>
-                                        Los capibaras son animales muy sociables que viven en grupos de 10 a 20 miembros a más.
-                                    </p>
-                                </div>
+                        <div class="card">
+                            <img src="/imagenes/capi-habitat.png" class="card-img-top" alt="capi-habitat"></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Hábitat</h5>
+                                <p class="card-text">Habitan en zonas cercanas a ríos, lagos y humedales en América del Sur. ¡Les encanta el agua!</p>
                             </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-4 col-lg-4 col-xl-4">
-                        <div class="card radius-15">
-                            <div class="card-body text-center">
-                                <div class="p-4 radius-15">
-                                    <img src="" width="110" height="110" class="rounded-circle shadow p-1 bg-white" alt=""></img>
-                                    <h4 class="mt-5 text-white">Vida Social</h4>
-                                    <p>
-                                        Los capibaras son animales muy sociables que viven en grupos de 10 a 20 miembros a más.
-                                    </p>
-                                </div>
+                        <div class="card">
+                            <img src="/imagenes/capi-alimentacion.png" class="card-img-top" alt="capi-alimentacion"></img>
+                            <div class="card-body">
+                                <h5 class="card-title">Alimentación</h5>
+                                <p class="card-text">Son hervíboros y se alimentan principalmente de pastos, frutas y plantas acuáticas.</p>
                             </div>
                         </div>
                     </div>
