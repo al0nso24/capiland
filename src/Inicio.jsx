@@ -17,7 +17,7 @@ export default function Inicio(){
                             Descubre la vida tranquila y fascinante de los roedores más amigables del planeta
                         </p>
                         <div className="d-flex justify-content-end">
-                            <Link className="btn btn-primary" to="/galeria">Ver Galería</Link>
+                            <Link className="btn" to="/galeria">Ver Galería ➡︎</Link>
                         </div>
                     </div>
                 </div>

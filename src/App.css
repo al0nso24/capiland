@@ -2,8 +2,19 @@
   --marron: #814141;
 }
 
-/*Color del navbar:*/
+/*Colores del Navbar:*/
+.navbar {
+  background-color: antiquewhite;
+}
 
+/*!important: Para que el color marrón se quede fijo.*/
+.navbar-brand, .nav-link {
+  color: var(--marron) !important
+}
+
+.nav-link:hover {
+  font-weight: bolder;
+}
 
 /*Sección "Inicio":*/
 body {
@@ -20,8 +31,18 @@ h1, .card-title {
   border-radius: 30px;
 }
 
-p{
+p {
   color: rgb(71, 70, 70);
+}
+
+.btn {
+  background-color: var(--marron);
+  color: white;
+}
+
+.btn:hover {
+  background-color: #955050;
+  color: white;
 }
 
 .carta-1 {
