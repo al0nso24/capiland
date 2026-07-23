@@ -73,3 +73,22 @@ p {
     transition: 0.5s;
     transform: translateY(-5px);
 }
+
+/*Footer:*/
+.footer {
+  background-color: var(--marron);
+  
+  h1 {
+    font-size: 70px;
+    color: bisque;
+  }
+
+  p{
+    color: bisque;
+  }
+
+}
+
+.capi-footer {
+  width: 270px;
+}
