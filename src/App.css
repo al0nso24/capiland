@@ -1,8 +1,54 @@
-/*Sección "Inicio"*/
+:root {
+  --marron: #814141;
+}
+
+/*Color del navbar:*/
+
+
+/*Sección "Inicio":*/
+body {
+  background-color: bisque;
+  font-family: 'Sour Gummy', sans-serif;
+}
+
+h1, .card-title {
+  color: var(--marron);
+}
+
+/*Imagen principal de la página.*/
 .banner {
   border-radius: 30px;
 }
 
+p{
+  color: rgb(71, 70, 70);
+}
+
+.carta-1 {
+  background-color: rgb(211, 211, 182);
+}
+
+.carta-2 {
+  background-color: rgb(190, 190, 130);
+}
+
+.carta-3 {
+  background-color: antiquewhite;
+}
+
+/*Para que las cartas no tengan borde.*/
+.card {
+  border: none;
+}
+
+/*Esto es para que todas las imágenes dentro de las cartas tengan un tamaño uniforme.*/
 .card img {
   height: 310px;
+  border-radius: 100%;
+}
+
+/*Para la animación de la carta.*/
+.card:hover {
+    transition: 0.5s;
+    transform: translateY(-5px);
 }
