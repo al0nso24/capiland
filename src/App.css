@@ -95,10 +95,10 @@ p {
 
 /*El tamaño de las imágenes de la galería.*/
 .img-galeria img {
-  border-radius: 20px;
+  border-radius: 18px;
 }
 
 .img-galeria img:hover {
-  transition-duration: 0.5s;
+  transition: 0.5s;
   transform: scale(1.03);
 }
