@@ -14,7 +14,7 @@ export default function Inicio(){
                     </div>
                     <div className="col-12 col-md-5 col-lg-5 col-xl-5">
                         <p>
-                            Descubre la vida tranquila y fascinante de los roedores más amigables del planeta
+                            Descubre la vida tranquila y fascinante de los roedores más amigables del planeta.
                         </p>
                         <div className="d-flex justify-content-end">
                             <Link className="btn" to="/galeria">Ver Galería ➡︎</Link>

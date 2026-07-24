@@ -92,3 +92,8 @@ p {
 .capi-footer {
   width: 270px;
 }
+
+/*El tamaño de las imágenes de la galería.*/
+.img-galeria img {
+  border-radius: 24px;
+}
